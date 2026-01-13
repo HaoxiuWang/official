@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { CssBaseline, ThemeProvider, Box, Typography, Container, Chip } from '@mui/material';
 import theme from './theme/darkTheme.js';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar.jsx';
 import Manifesto from './components/Manifesto';
 import ProjectSection from './components/ProjectSection';
 import Hero from './components/hero';
