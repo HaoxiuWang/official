@@ -4,7 +4,7 @@ import theme from './theme/darkTheme';
 import Navbar from './components/NavBar';
 import Manifesto from './components/Manifesto';
 import ProjectSection from './components/ProjectSection';
-import Hero from './components/hero';
+import Hero from './components/Hero';
 import BioCard from "./components/BioCard"
 
 export default function App() {
