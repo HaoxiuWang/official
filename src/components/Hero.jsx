@@ -10,7 +10,7 @@ export default ({}) =>(
     background: 'radial-gradient(circle at 50% 50%, #112240 0%, #020c1b 100%)',
     position: 'relative',
     px: 3,
-    pt: 10
+    py: 10
   }}>
     {/* 1. 极简身份标识：名字 + 职业，合并为一行 */}
     
