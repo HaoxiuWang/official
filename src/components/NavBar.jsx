@@ -47,25 +47,9 @@ export default function Navbar({ onNavigateManifesto, onNavigateProjects, onNavi
         fontSize: '0.95rem'
       }}
     >
-      Peter Wang {/* 替换为你的真实名字 */}
+      P.W. Official{/* 替换为你的真实名字 */}
     </Typography>
-    {
-      isMobile?"":(
-        <Typography 
-    variant="caption" 
-    sx={{ 
-      color: 'primary.main', 
-      fontFamily: '"Fira Code", monospace',
-      fontWeight: 500,
-      fontSize: '0.7rem',
-      letterSpacing: 2,
-      textTransform: 'uppercase' // 全大写会让短词显得更有权威感
-    }}
-  >
-    Full-Stack Architect {/* 这里替换成你选的词 */}
-  </Typography>
-      )
-    }
+    
   </Box>
 </Box>
 
@@ -87,7 +71,7 @@ export default function Navbar({ onNavigateManifesto, onNavigateProjects, onNavi
             variant="outlined" 
             color="primary" 
             startIcon={<GitHubIcon />}
-            href="https://github.com/yourusername"
+            href="https://github.com/haoxiuwang"
             target="_blank"
             sx={{ 
               borderRadius: '4px', 

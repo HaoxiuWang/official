@@ -6,15 +6,17 @@ const projects = [
     title: "Easy-React",
     tagline: "Reinventing the Reconciliation Engine",    
     description: "A custom React implementation featuring a Fiber-based reconciler, Concurrent Mode simulation, and a full Hooks API. Designed to bridge the gap between 'using React' and 'understanding React'.",
-    highlights: ["Fiber Architecture", "Work Loops", "Synthetic Events"],
-    truth: "Frameworks shouldn't be black boxes. Easy-React proves that the core of modern UI engineering is logic, not magic."
+    highlights: ["Full React Hooks", "Virtual DOM Diff", "Stateful Components"],
+    truth: "Frameworks shouldn't be black boxes. Easy-React proves that the core of modern UI engineering is logic, not magic.",
+    link: "https://www.npmjs.com/package/@whxcctv/easy-react"
   },
   {
     title: "Truth-Web",
     tagline: "The Post-Framework Node.js Scaffold",
     description: "A zero-dependency, vanilla Node.js architecture. It challenges the necessity of heavy frameworks like NestJS or Express in the Async/Await era, where 'Framework Bloat' often hides architectural incompetence.",
     highlights: ["Zero-Dep Core", "Native Async Flow", "No-TS Architecture"],
-    truth: "TypeScript and Frameworks are often used as gatekeeping tools. Truth-Web returns sovereignty to the developer by leveraging the native power of the V8 engine."
+    truth: "TypeScript and Frameworks are often used as gatekeeping tools. Truth-Web returns sovereignty to the developer by leveraging the native power of the V8 engine.",
+    link: "https://www.npmjs.com/package/@whxcctv/create-tony-app"
   }
 ];
 
@@ -44,7 +46,10 @@ export default function ProjectSection() {
                   <Typography variant="body2" sx={{ fontStyle: 'italic', mb: 3, fontSize: '1rem' }}>
                     "{item.truth}"
                   </Typography>
-                  <Button variant="contained" endIcon={<LaunchIcon />} sx={{ alignSelf: 'flex-start', px: 4 }}>
+                  <Button 
+                    href={`${item.link}`}
+                    target="_blank"
+                    variant="contained" endIcon={<LaunchIcon />} sx={{ alignSelf: 'flex-start', px: 4 }}>
                     View Repository
                   </Button>
                 </Grid>

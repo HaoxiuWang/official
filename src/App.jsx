@@ -41,14 +41,14 @@ export default function App() {
           
           <Container maxWidth="md" ref={experimentRef} sx={{ py: 20, textAlign: 'center' }}>
             <Typography variant="h6" color="text.secondary" gutterBottom sx={{ fontWeight: 800 }}>
-              Experiment
+              Flutter-Ionic
             </Typography>
             <Typography variant="h4" color="primary" gutterBottom sx={{ fontWeight: 800 }}>
-              An Angular-style Edition
+              An Cross-Platform Mobile Application Framework
             </Typography>
             <Typography color="text.secondary" sx={{ mb: 4 }}>
               
-              This experiment explores how Angular's core architectural ideas can be implemented using pure Vanilla JavaScript, without TypeScript, decorators.
+              This experiment aims to using Flutter/Dart to implement an Ionic-like framework which can be a container of any React/Angular/Vue app.
             </Typography>
             <Box sx={{ 
               p: 4, 
@@ -66,7 +66,7 @@ export default function App() {
 
         <Box component="footer" sx={{ py: 6, textAlign: 'center', borderTop: '1px solid #233554', mt: 10 }}>
           <Typography variant="body2" color="text.secondary" sx={{ fontFamily: '"Fira Code", monospace' }}>
-             © 2026. Built with Easy React.
+             © 2026. Built with React.
           </Typography>
         </Box>
       </Box>

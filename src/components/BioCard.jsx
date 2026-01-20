@@ -25,10 +25,10 @@ export default function BioCard() {
       <Stack spacing={3}>
         <Box>
           <Typography variant="h4" sx={{ fontWeight: 800, color: '#ccd6f6', mb: 1 }}>
-            Peter Wang
+            PETER WANG
           </Typography>
           <Typography variant="h6" color="primary" sx={{ fontFamily: '"Fira Code", monospace', fontSize: '1rem' }}>
-            {`> Web Architect | 20+ Years Global Experience`}
+            {`> Web Architect | 20+ Years Programming Experience`}
           </Typography>
         </Box>
 
