@@ -25,7 +25,7 @@ export default ({}) =>(
       color: '#ccd6f6'
     }}>
       I build tools, <br />
-      <span style={{ color: '#64ffda', opacity: 0.8 }}>not just apps.</span>
+      <span style={{ color: '#64ffda', opacity: 0.8 }}>not just use.</span>
     </Typography>
 
     {/* 3. 哲学描述：控制在两行以内，减少视觉负担 */}
@@ -36,8 +36,7 @@ export default ({}) =>(
       lineHeight: 1.6,
       mb: 5
     }}>
-      Engineering transparency into the web by dismantling the 
-      <strong> Framework Industrial Complex.</strong>
+       For years, I've been rewriting major full-stack frameworks — and that's how I get excellent abilities around it.
     </Typography>
 
     

@@ -11,12 +11,12 @@ const projects = [
     link: "https://www.npmjs.com/package/@whxcctv/easy-react"
   },
   {
-    title: "Truth-Web",
-    tagline: "The Post-Framework Node.js Scaffold",
-    description: "A zero-dependency, vanilla Node.js architecture. It challenges the necessity of heavy frameworks like NestJS or Express in the Async/Await era, where 'Framework Bloat' often hides architectural incompetence.",
-    highlights: ["Zero-Dep Core", "Native Async Flow", "No-TS Architecture"],
-    truth: "TypeScript and Frameworks are often used as gatekeeping tools. Truth-Web returns sovereignty to the developer by leveraging the native power of the V8 engine.",
-    link: "https://www.npmjs.com/package/@whxcctv/create-tony-app"
+    title: "Linear-Http",
+    tagline: "High-Performance, Zero-Dependency Architecture",
+    description: "A precision-engineered micro-framework that combines the speed of a Radix Tree Router with the architectural elegance of Encapsulated Scopes. It proves that you don't need heavy dependencies to build scalable, maintainable systems.",
+    highlights: ["Radix Tree Routing", "Plugin Encapsulation", "Zero-Dependency Core"],
+    truth: "True power comes from understanding the platform, not hiding it. Linear provides a razor-thin abstraction over native APIs, giving you maximum control with minimum overhead.",
+    link: "https://github.com/HaoxiuWang/linear-http"
   }
 ];
 

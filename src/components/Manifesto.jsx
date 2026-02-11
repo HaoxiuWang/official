@@ -8,10 +8,10 @@ export default function Manifesto() {
           Engineering Philosophy
         </Typography>
         <Typography variant="h5" sx={{ mb: 3, color: 'text.secondary', lineHeight: 1.6 }}>
-          "Frameworks have become the new vanity metrics. If you can't build without them, you are not empowered—you are captured."
+          "Tools should never be treated as black boxes."          
         </Typography>
         <Typography variant="body1" sx={{ fontSize: '1.2rem', mb: 4 }}>
-          In an era of <strong>Framework Inflation</strong>, we've traded fundamental understanding for abstraction layers. My work focuses on stripping away the "magic" to reveal the raw power of the runtime.
+          Always act like you're their creators, because the more you can see internally, the further you can improve it.
         </Typography>
         <Divider sx={{ borderColor: 'primary.main', width: '60px', borderBottomWidth: 3 }} />
       </Container>

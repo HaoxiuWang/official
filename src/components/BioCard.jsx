@@ -28,13 +28,12 @@ export default function BioCard() {
             PETER WANG
           </Typography>
           <Typography variant="h6" color="primary" sx={{ fontFamily: '"Fira Code", monospace', fontSize: '1rem' }}>
-            {`> Web Architect | 20+ Years Programming Experience`}
+            {`> Senior Full-Stack Engineer | Framework Specialist | Open Source Contributor`}
           </Typography>
         </Box>
 
         <Typography variant="body1" sx={{ color: 'text.secondary', lineHeight: 1.7 }}>
-          Polyglot engineer with deep roots in <strong>C++, C#, and Go</strong>, now focused on dismantling web complexity. 
-          Recently relocated to <strong>Canada</strong>. I bring the maturity of an entrepreneur and the technical depth of a systems architect to local teams.
+          Expert in React and modern web ecosystems with a proven track record in building high-performance frameworks. Author of two acclaimed open-source projects. Extensive polyglot development experience across C/C++, C#/.NET, Go, Java/Kotlin, and Flutter/Dart. Currently specialized in Full-Stack architecture, Cloud-Native solutions (K8s/Service Mesh), and high-concurrency systems leveraging V8 isolates.
         </Typography>
 
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>

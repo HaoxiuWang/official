@@ -41,14 +41,14 @@ export default function App() {
           
           <Container maxWidth="md" ref={experimentRef} sx={{ py: 20, textAlign: 'center' }}>
             <Typography variant="h6" color="text.secondary" gutterBottom sx={{ fontWeight: 800 }}>
-              Flutter-Ionic
+              Experit
             </Typography>
             <Typography variant="h4" color="primary" gutterBottom sx={{ fontWeight: 800 }}>
-              An Cross-Platform Mobile Application Framework
+              Serverless with V8 Isolates
             </Typography>
             <Typography color="text.secondary" sx={{ mb: 4 }}>
               
-              This experiment aims to using Flutter/Dart to implement an Ionic-like framework which can be a container of any React/Angular/Vue app.
+              This experiment aims to simulate Cloudflare's 'Cloud Computing without Containers' model—an Isolate-as-a-Service architecture. It delivers instant-on scalability by leveraging web standards and WebAssembly, enabling high-performance compute directly at the network edge.
             </Typography>
             <Box sx={{ 
               p: 4, 
