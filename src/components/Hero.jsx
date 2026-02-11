@@ -36,7 +36,7 @@ export default ({}) =>(
       lineHeight: 1.6,
       mb: 5
     }}>
-       For years, I've been rewriting major full-stack frameworks — and that's how I get excellent abilities around it.
+       Building the engines behind the apps. From custom frameworks to K8s & V8 isolates. I create the tools that scale.
     </Typography>
 
     
